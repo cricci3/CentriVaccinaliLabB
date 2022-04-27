@@ -1,4 +1,4 @@
-package com.example.centrivaccinalilabb;
+package it.uninsubria.centrivaccinalilabb;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

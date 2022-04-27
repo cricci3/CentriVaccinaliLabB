@@ -1,4 +1,4 @@
-package com.example.centrivaccinalilabb;
+package it.uninsubria.centrivaccinalilabb;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

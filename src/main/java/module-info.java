@@ -3,6 +3,6 @@ module com.example.centrivaccinalilabb {
     requires javafx.fxml;
 
 
-    opens com.example.centrivaccinalilabb to javafx.fxml;
-    exports com.example.centrivaccinalilabb;
+    opens it.uninsubria.centrivaccinalilabb to javafx.fxml;
+    exports it.uninsubria.centrivaccinalilabb;
 }
