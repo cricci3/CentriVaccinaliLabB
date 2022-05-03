@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:controller="it.uninsubria.centrivaccinalilabb.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFFCC;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="210.0" layoutY="122.0" text="Seleziona l'applicazione" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="249.0" layoutY="80.0" text="Benvenuto" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Button fx:id="btn_operatore" contentDisplay="CENTER" layoutX="210.0" layoutY="188.0" mnemonicParsing="false" onAction="#onButtonOperatoreClick" style="-fx-background-color: #FFCCFF; -fx-border-color: BLACK; -fx-padding: 10;" text="Operatore" textAlignment="CENTER" />
+        <Button fx:id="btn_cittadino" contentDisplay="CENTER" layoutX="324.0" layoutY="188.0" mnemonicParsing="false" style="-fx-background-color: #FFCCFF; -fx-border-color: BLACK; -fx-padding: 10;" text="Cittadino" textAlignment="CENTER">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets></Button>
+    </children>
+</Pane>
