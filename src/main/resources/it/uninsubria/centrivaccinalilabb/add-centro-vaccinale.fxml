@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.uninsubria.centrivaccinalilabb.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="97.0" layoutY="14.0" text="Aggiungi un nuovo centro vaccinale" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="94.0" text="Nome">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="226.0" layoutY="94.0" promptText=" Nome Centro Vaccinale" />
+      <ChoiceBox layoutX="75.0" layoutY="181.0" prefHeight="25.0" prefWidth="100.0" />
+      <TextField layoutX="194.0" layoutY="181.0" prefHeight="25.0" prefWidth="330.0" promptText="es. Borri, 30" />
+      <TextField layoutX="76.0" layoutY="275.0" prefHeight="25.0" prefWidth="149.0" />
+      <ChoiceBox layoutX="258.0" layoutY="275.0" prefHeight="25.0" prefWidth="84.0" />
+      <TextField layoutX="375.0" layoutY="275.0" />
+      <Button layoutX="248.0" layoutY="334.0" mnemonicParsing="false" text="Aggiungi Centro" />
+      <Label layoutX="65.0" layoutY="163.0" text="Via/Viale/Piazza/Corso" />
+      <Label layoutX="277.0" layoutY="163.0" text="Indirizzo" />
+      <Label layoutX="128.0" layoutY="258.0" text="Comune" />
+      <Label layoutX="258.0" layoutY="258.0" text="Provincia (Sigla)" />
+      <Label layoutX="435.0" layoutY="258.0" text="CAP" />
+      <Label alignment="CENTER" layoutX="208.0" layoutY="49.0" text="Inserire tutti i dati richiesti" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
