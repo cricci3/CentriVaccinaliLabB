@@ -22,7 +22,7 @@ public class Controller {
 
     @FXML
     protected void onButtonOperatoreClick(ActionEvent event){
-        FXMLLoader fxmlLoader = new FXMLLoader(Hello.class.getResource("operatore-login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Hello.class.getResource("login-operatore.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
