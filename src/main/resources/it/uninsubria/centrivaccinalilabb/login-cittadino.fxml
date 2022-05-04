@@ -14,13 +14,13 @@
       </Label>
       <Label layoutX="275.0" layoutY="220.0" text="Password" />
       <Label layoutX="273.0" layoutY="134.0" text="Username" />
-      <TextField layoutX="185.0" layoutY="152.0" prefHeight="25.0" prefWidth="230.0" />
-      <PasswordField layoutX="185.0" layoutY="237.0" prefHeight="25.0" prefWidth="230.0" />
-      <Button fx:id="btn_loginVaccinato" layoutX="275.0" layoutY="298.0" mnemonicParsing="false" text="Login">
+      <TextField fx:id="tf_usernameLogin" layoutX="185.0" layoutY="152.0" prefHeight="25.0" prefWidth="230.0" />
+      <PasswordField fx:id="tf_passwordLogin" layoutX="185.0" layoutY="237.0" prefHeight="25.0" prefWidth="230.0" />
+      <Button fx:id="btn_loginCittadino" layoutX="275.0" layoutY="298.0" mnemonicParsing="false" text="Login">
          <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding>
       </Button>
-      <Label fx:id="label_loginErroreVaccinato" layoutX="286.0" layoutY="343.0" text="Label" />
+      <Label fx:id="label_loginErroreCittadino" layoutX="286.0" layoutY="343.0" text="Label" />
    </children>
 </AnchorPane>

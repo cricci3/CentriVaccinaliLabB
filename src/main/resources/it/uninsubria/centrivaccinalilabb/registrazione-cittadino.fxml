@@ -28,7 +28,7 @@
       <TextField fx:id="tf_passwordRegistrazione" layoutX="341.0" layoutY="262.0" />
       <Label layoutX="109.0" layoutY="245.0" text="Username" />
       <Label layoutX="341.0" layoutY="245.0" text="Password" />
-      <TextField fx:id="tf_IDRegistrazione" layoutX="109.0" layoutY="335.0" />
+      <TextField fx:id="tf_idRegistrazione" layoutX="109.0" layoutY="335.0" />
       <Label layoutX="109.0" layoutY="317.0" text="ID Cittadino" />
       <Button fx:id="btn_registraCittadino" layoutX="380.0" layoutY="329.0" mnemonicParsing="false" text="Registrati">
          <padding>

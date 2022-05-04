@@ -12,8 +12,8 @@
          <Font name="System Bold" size="24.0" />
       </font>
    </Label>
-   <TextField fx:id="tv_username" layoutX="185.0" layoutY="166.0" prefHeight="25.0" prefWidth="230.0" />
-   <PasswordField fx:id="tv_password" layoutX="185.0" layoutY="250.0" prefHeight="25.0" prefWidth="230.0" />
+   <TextField fx:id="tf_username" layoutX="185.0" layoutY="166.0" prefHeight="25.0" prefWidth="230.0" />
+   <PasswordField fx:id="tf_password" layoutX="185.0" layoutY="250.0" prefHeight="25.0" prefWidth="230.0" />
    <Label layoutX="273.0" layoutY="149.0" text="Username" textAlignment="CENTER" />
    <Label layoutX="275.0" layoutY="233.0" text="Password" textAlignment="CENTER" />
       <Button fx:id="btn_loginOperatore" layoutX="275.0" layoutY="302.0" mnemonicParsing="false" text="Login">

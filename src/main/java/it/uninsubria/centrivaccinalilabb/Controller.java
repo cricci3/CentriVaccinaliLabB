@@ -15,10 +15,7 @@ public class Controller {
     private Parent root;
 
     @FXML
-    private Button btn_operatore;
-
-    @FXML
-    private Button btn_cittadino;
+    private Button btn_operatore, btn_cittadino;
 
     @FXML
     protected void onButtonOperatoreClick(ActionEvent event){
