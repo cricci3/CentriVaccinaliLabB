@@ -17,16 +17,12 @@
          </font>
       </Label>
       <TextField fx:id="tf_nomeCentro" layoutX="226.0" layoutY="94.0" promptText=" Nome Centro Vaccinale" />
-      <ChoiceBox fx:id="box_via" layoutX="75.0" layoutY="181.0" prefHeight="25.0" prefWidth="100.0" />
       <TextField fx:id="tf_indirizzo" layoutX="194.0" layoutY="181.0" prefHeight="25.0" prefWidth="330.0" promptText="es. Borri, 30" />
       <TextField fx:id="tf_comune" layoutX="76.0" layoutY="275.0" prefHeight="25.0" prefWidth="149.0" />
-      <ChoiceBox fx:id="box_provincia" layoutX="258.0" layoutY="275.0" prefHeight="25.0" prefWidth="84.0" />
       <TextField fx:id="tf_cap" layoutX="375.0" layoutY="275.0" />
       <Button fx:id="btn_addCentro" layoutX="248.0" layoutY="334.0" mnemonicParsing="false" onAction="#aggiungiCentroVaccinale" text="Aggiungi Centro" />
-      <Label layoutX="65.0" layoutY="163.0" text="Via/Viale/Piazza/Corso" />
       <Label layoutX="277.0" layoutY="163.0" text="Indirizzo" />
       <Label layoutX="128.0" layoutY="258.0" text="Comune" />
-      <Label layoutX="258.0" layoutY="258.0" text="Provincia (Sigla)" />
       <Label layoutX="435.0" layoutY="258.0" text="CAP" />
       <Label alignment="CENTER" layoutX="208.0" layoutY="49.0" text="Inserire tutti i dati richiesti" textAlignment="CENTER">
          <font>
