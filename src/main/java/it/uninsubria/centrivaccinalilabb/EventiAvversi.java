@@ -1,7 +1,7 @@
 package it.uninsubria.centrivaccinalilabb;
 
 public class EventiAvversi {
-    private CittadinoRegistrato cittadino;
+    private CittadiniRegistrati cittadino;
     private int valoreMalDiTesta;
     private int valoreFebbre;
     private int valoreDolori;
@@ -9,7 +9,7 @@ public class EventiAvversi {
     private int valoreTachicardia;
     private int valoreCrisiI;
 
-    EventiAvversi(CittadinoRegistrato cittadino, int testa, int febbre, int dolori, int linfoadenopatia, int tachicardia, int crisi){
+    EventiAvversi(CittadiniRegistrati cittadino, int testa, int febbre, int dolori, int linfoadenopatia, int tachicardia, int crisi){
         this.cittadino=cittadino;
         this.valoreMalDiTesta=testa;
         this.valoreFebbre=febbre;
