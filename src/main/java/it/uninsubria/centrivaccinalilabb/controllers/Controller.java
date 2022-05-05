@@ -1,5 +1,6 @@
-package it.uninsubria.centrivaccinalilabb;
+package it.uninsubria.centrivaccinalilabb.controllers;
 
+import it.uninsubria.centrivaccinalilabb.Hello;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

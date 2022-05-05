@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.uninsubria.centrivaccinalilabb.Controller">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.uninsubria.centrivaccinalilabb.controllers.Controller">
    <children>
       <Label layoutX="96.0" layoutY="14.0" text="Seleziona il tipo di ricerca desiderato">
          <font>
