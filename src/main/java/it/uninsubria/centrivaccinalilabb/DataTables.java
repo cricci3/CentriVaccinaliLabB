@@ -19,14 +19,15 @@ public class DataTables {
     }
 
     public void handleCentriVaccinaliSet(ResultSet rs) throws SQLException {
-        rs.first(); //così handle iniziano da prima riga
+        //rs.first(); //così handle iniziano da prima riga
         while(rs.next()) {
             CentriVaccinali cv = new CentriVaccinali(rs.getString("nome"),
-                    rs.getString("tipologia"),
                     rs.getString("indirizzo"),
                     rs.getString("comune"),
+                    rs.getString("provincia"),
                     rs.getInt("cap"),
-                    rs.getString("provincia"));
+                    rs.getString("tipologia")
+            );
             centriVaccinaliTable.add(cv);
         }
     }

@@ -9,13 +9,11 @@ public class TestDB {
         DataTables dt = new DataTables();
 
         ResultSet centriVaccinali = db.submitQuery("SELECT * FROM CentriVaccinali");
-        dt.handleCentriVaccinaliSet(centriVaccinali);
+        System.out.println(centriVaccinali);
         dt.handleCentriVaccinaliSet(centriVaccinali);
 
         for(CentriVaccinali cv: dt.getCentriVaccinaliTable()) { //per ogni studente S contento in ...
             System.out.println(cv);
         }
     }
-
-
 }
