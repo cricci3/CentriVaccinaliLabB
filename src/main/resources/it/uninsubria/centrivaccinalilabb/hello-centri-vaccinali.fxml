@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.uninsubria.centrivaccinalilabb.controllers.ControllerHelloCentriVaccinali">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <Label layoutX="226.0" layoutY="115.0" text="Seleziona l'applicazione" textAlignment="CENTER">
             <font>
@@ -16,8 +16,8 @@
             <font>
                 <Font name="System Bold" size="24.0" />
             </font></Label>
-        <Button id="btn_operatore" fx:id="btn_operatore" contentDisplay="CENTER" layoutX="210.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToOperatore" style="-fx-padding: 10;" text="Operatore" textAlignment="CENTER" />
-        <Button id="btn_cittadino" fx:id="btn_cittadino" contentDisplay="CENTER" layoutX="324.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToCittadino" style="-fx-padding: 10;" text="Cittadino" textAlignment="CENTER">
+        <Button id="btn_operatore" fx:id="btn_operatore" contentDisplay="CENTER" layoutX="210.0" layoutY="188.0" mnemonicParsing="false" style="-fx-padding: 10;" text="Operatore" textAlignment="CENTER" />
+        <Button id="btn_cittadino" fx:id="btn_cittadino" contentDisplay="CENTER" layoutX="324.0" layoutY="188.0" mnemonicParsing="false" style="-fx-padding: 10;" text="Cittadino" textAlignment="CENTER">
             <opaqueInsets>
                 <Insets />
             </opaqueInsets></Button>
